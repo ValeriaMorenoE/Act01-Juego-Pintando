@@ -41,8 +41,11 @@ def square(start, end):
 def circle(start, end):
     "Draw circle from start to end."
     t = turtle.Turtle()
+    t.fillcolor('pink')
+    t.begin_fill()
     r = 50
     t.circle(r)
+    t.end_fill()
     pass  # TODO
 
 
