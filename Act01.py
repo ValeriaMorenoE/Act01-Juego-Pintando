@@ -48,6 +48,16 @@ def circle(start, end):
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
+    t = turtle.Turtle()
+    for _ in range(4):
+   
+      if _% 2 == 0:
+        t.forward(100) 
+        t.left(90) 
+
+      else:
+        t.forward(50) 
+        t.left(90) 
     pass  # TODO
 
 
