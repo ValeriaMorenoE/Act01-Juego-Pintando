@@ -10,7 +10,7 @@ Exercises
 
 
 """
-
+import turtle
 from turtle import *
 
 from freegames import vector
@@ -40,6 +40,9 @@ def square(start, end):
 
 def circle(start, end):
     "Draw circle from start to end."
+    t = turtle.Turtle()
+    r = 50
+    t.circle(r)
     pass  # TODO
 
 
